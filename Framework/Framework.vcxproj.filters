@@ -18,5 +18,15 @@
     <ClCompile Include="wWinMain.c++">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="App.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shader\PSFrameBuffer.hlsl" />
+    <FxCompile Include="Shader\VSFrameBuffer.hlsl" />
   </ItemGroup>
 </Project>

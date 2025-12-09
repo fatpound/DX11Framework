@@ -6,6 +6,8 @@
 #include <Win32_/FatWin.hpp>
 
 import FatPound;
+import dxfw.App;
+
 import std;
 
 int APIENTRY wWinMain(
@@ -16,6 +18,8 @@ int APIENTRY wWinMain(
 {
     try
     {
+		dxfw::App{ L"Resource\\flare.png" }.Run();
+
         return 0;
     }
     catch (const std::exception& ex)
