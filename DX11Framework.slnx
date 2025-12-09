@@ -3,5 +3,6 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Framework/Framework.vcxproj" />
+  <Project Path="FatModules/FatModules.vcxproj" Id="064e2dd0-aee6-4af4-ae1a-64fdd79d9fb7" />
+  <Project Path="Framework/Framework.vcxproj" Id="da781eaa-3e3b-4816-a649-8eb786a45180" />
 </Solution>
